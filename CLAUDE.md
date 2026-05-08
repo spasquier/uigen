@@ -41,4 +41,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Database:** Uses SQLite. Ensure `npm run setup` is run after significant schema changes.
 - **Environment Variables:** Requires `ANTHROPIC_API_KEY` for full functionality. If missing, the app falls back to a mock provider.
 
+### Development Best Practices
+- Use comments sparingly. Only comment complex code.
+
+### Database
+- The database schema is defined in the @prisma/schema.prisma file. Reference it anytime you need to understand the structure of data
+stored in the database.
+
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
